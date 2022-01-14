@@ -1,6 +1,8 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
+   
 }
 
 
@@ -9,7 +11,6 @@ body {
     margin: 0;
     color: #fff;
    
-     
 }
 
 
@@ -22,6 +23,7 @@ body {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
+   
 
     
 }
@@ -39,9 +41,13 @@ body {
     
 }
 
+.white_text_color {
+    color: #ffffff;
+}
+
 .container-two {
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 700px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -60,6 +66,21 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+#slovo img {
+    max-width: 100%;
+}
+
+#zagolovok {
+    font-size:calc(19px + 5 * (100vw/1000));
+}
+
+#zagolovok2 {
+    font-size:calc(30px + 5 * (100vw/1000));
+}
+
+#slovo p {
+    font-size:calc(15px + 5 * (100vw/1000));
+}
 
 .yslugi {
    display: flex;
@@ -77,12 +98,10 @@ body {
     text-align: center;
     margin-top: 60px;
     
-    
-
 }
 
 .section5 p{
-   padding-top: 30px;
+   padding-top: 40px;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -128,7 +147,6 @@ body {
     background: #0D5971;
     height: 100%; 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
@@ -136,6 +154,17 @@ body {
 
  .section7 img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+ }
+
+ .section7 p {
+    font-size:calc(11.5px + 4 * (100vw/1000));
+ }
+
+ .section7 h2 {
+    font-size:calc(14px + 4 * (100vw/1000));
  }
 
 
@@ -151,13 +180,14 @@ body {
 
 
 .text1{
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 
  .text1 p{
      text-align: left;
-     font-size: 20px;
+   
      
  }
 
@@ -166,7 +196,10 @@ body {
  .text2 {
      text-align: left;
      padding: 40px;
+     
  }
+
+
 
  .text2 h2{
     border-bottom: 2px solid #fff; 
@@ -221,44 +254,15 @@ body {
     font-weight: bold;
     font-size: 30px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 30px;
     
 }
 
 
-.cont {
-    text-align: center;
+
+.size_font {
+    font-size: 14px;
 }
-
-.block {
-    background: #0D5971;
-    height: 180px;
-    width: 100%;
-    margin-top: 10px;  
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #fff;
-    text-transform: uppercase;
-    padding: 10px;
-
-}
-
-.block p{
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-}
-
-.one {
-    font-size: 12px;
-    
-}
-
-.number {
-    color: #fff;
-}
-
 
 footer {
    color: #fff; 
@@ -365,7 +369,7 @@ footer a{
 }
 
 .info_sto {
-    font-size: 19px;
+    font-size:calc(10px + 5 * (100vw/1000));
 }
 
 .zagl {
@@ -391,9 +395,10 @@ footer a{
 }
 
 .doki {
-    padding-top:30px;
+    padding-top:40px;
     color: #fff;
     text-decoration: none;
+    
 }
 
 
@@ -401,9 +406,8 @@ footer a{
     
     color: #fff;
     text-decoration: none;
-    padding-bottom: 3px;
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 300;
-    padding: 10px;
+    
 }
